@@ -7,7 +7,8 @@ export default {
 };
 </script>
 <template>
-  <div id="app">
+  <!-- Do trùng tên id là app, nên giao diện bị hư nè -->
+  <div id="sub_app">
     <AppHeader />
     <div class="container mt-3">
       <router-view />
